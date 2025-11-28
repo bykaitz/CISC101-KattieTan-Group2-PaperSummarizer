@@ -1,4 +1,7 @@
-For each section: Extract content. Summarize within ≤ 100 words. Apply terminology consistency checks.
+For each section: 
+> Extract content.
+> Summarize within ≤ 100 words.
+> Apply terminology consistency checks.
 
 Add “Summary Level” Modes
    >  The summarizer should support two summary levels for each section:
