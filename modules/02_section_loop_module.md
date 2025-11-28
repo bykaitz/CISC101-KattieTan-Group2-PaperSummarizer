@@ -1,3 +1,7 @@
+**Change Log**
+Updated summarization rules to match PS2 specification constraints.
+Added summary level modes for section loop depending on short or detailed summary levels. 
+
 For each section: 
 > Extract content.
 > Summarize within ≤ 100 words.
