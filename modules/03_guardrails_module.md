@@ -1,0 +1,13 @@
+Apply long-paper chunking strategies (PS2 context-window).
+
+The summarizer should more clearly respect the **“only use what’s in the paper”** rule and expose that behavior.
+
+**Strict Evidence Mode**: Introduce a **mode or flag** (e.g., `evidence_mode = "strict"`). When it is set to `"strict"`:
+
+Prevent hallucinations.
+   
+The summarizer should: only include claims, equations, and results that appear in the provided text.    
+> If it cannot find enough information, it must say so explicitly (e.g., “The source text does not provide enough detail to summarize this section in strict evidence mode.”).
+
+**Section Warning Messages**
+For sections that are missing/emtpy or too short (< 50 words) then module must instruct system to output a **standardized warning**, such as: * “Section skipped: no usable text was provided. Section very short: summary may be incomplete.”
