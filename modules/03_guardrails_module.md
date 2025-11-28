@@ -1,3 +1,7 @@
+**Change Log**
+- Updated summarization rules to match PS2 specification constraints.
+- Added strict evidence mode and section warning messages to mitigate hallucinations to use what is in the paper and to handle edge cass if sections are missing/empty or too short
+
 Apply long-paper chunking strategies (PS2 context-window).
 
 The summarizer should more clearly respect the **“only use what’s in the paper”** rule and expose that behavior.
